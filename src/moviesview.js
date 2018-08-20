@@ -4,9 +4,7 @@ import React, { Component } from 'react';
 import{View,StyleSheet,Text,ImageBackground,ListView, TouchableOpacity}from 'react-native';
 import {DetailsView} from './screenames';
 
-//Llaves para conexion con moviedb
-//Public key b24ec13946b67db8964d19306b349b48
-//Private key 7e5f93502f18bc5333007a5998cc0caad976fd79
+
 
 const REQUEST_URL = "https://api.themoviedb.org/3/discover/movie?api_key=01b138e7c7bbf88e2f55d86ec919e1f7&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1";
 const REQUEST_URL_IMAGE = "https://image.tmdb.org/t/p/w500";
